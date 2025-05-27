@@ -51,9 +51,8 @@ Este proyecto es una solución integral para la administración de procesos de c
 - Joi, dotenv, bcrypt, cors, node-mailjet etc.
 
 ### Frontend
-- React.js / Tailwind CSS (o el framework usado)
+- React.js
 - Axios para consumo de API
-- Context API / Redux para gestión de estado
 - Validaciones con formularios dinámicos
 
 ---

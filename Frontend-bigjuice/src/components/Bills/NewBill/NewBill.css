@@ -1,0 +1,188 @@
+.newbill-main-container {
+  background-color: rgba(0, 0, 0, 0.375);
+  height: calc(100vh - 6rem - 2px);
+  position: absolute;
+  width: 100vw;
+  display: grid;
+  place-content: center;
+  top: calc(6rem + 2px);
+  z-index: 9999;
+}
+
+.new-bill {
+  position: absolute;
+  left: 10px;
+  top: calc(6rem + 10px);
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  border: solid 2px black;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-newbill-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-newbill-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-newbill-container form label {
+    margin-top: 10px;
+}
+
+.form-newbill-container form select {
+    height: 2rem;
+}
+
+.newbill-main-container form h2 {
+  margin: auto;
+}
+
+.newbill-main-container form div {
+  display: grid;
+  place-content: center;
+  width: 70%;
+  margin: auto;
+}
+
+.newbill-main-container form div input {
+  width: 20rem;
+}
+
+.form-newbill-container form textarea {
+    resize: none;
+}
+
+.newbill-main-container form button {
+  background-color: greenyellow;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  border: solid 2px black;
+  color: rgb(110, 37, 148);
+  width: 15rem;
+}
+
+.newbill-main-container form button:hover {
+  background-color: rgb(110, 37, 148);
+  color: greenyellow;
+}
+
+.close-button-container-newbill {
+  position: relative;
+  width: 100%;
+  display: flex;
+  font-size: 1.6rem;
+}
+
+.newbill-message {
+  margin: auto;
+  margin-bottom: 10px;
+  color: rgb(110, 37, 148);
+}
+
+.options-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 15rem;
+  overflow-y: auto;
+}
+
+.option-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.option-group select,
+.option-group input {
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+.option-group input {
+  height: 1.7rem;
+}
+
+.more-elements-button-newbill {
+  font-size: 1.7rem;
+  color: green;
+  cursor: pointer;
+}
+
+.more-elements-button-newbill:hover {
+  color: var(--lila-oscuro);
+}
+
+.send-newbill-button {
+  background-color: red;
+  color: #fff;
+  padding: 3px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  border: solid 2px black;
+  color: white;
+  width: 10rem;
+  /* position: absolute; */
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.confirmate-newbill-button {
+  background-color: rgb(0, 92, 239);
+  color: #fff;
+  padding: 3px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  border: solid 2px black;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10rem;
+
+}
+
+.button-send-newbill-container {
+  display: grid;
+  place-content: center;
+  height: 4rem;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+}
+
+.close-button-newbill {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 1.4rem;
+  color: red;
+  cursor: pointer;
+}
+
+.close-button-newbill:hover {
+  color: black;
+}

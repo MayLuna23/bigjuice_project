@@ -1,0 +1,180 @@
+.main-container-historic-production {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.375);
+  height: calc(100vh - 6rem - 2px);
+  z-index: 9999;
+  width: 100%;
+
+  /* background-color: red; */
+}
+
+.submain-container-historic-production {
+  margin: auto;
+  max-height: 85%;
+  width: calc(75% + 30px);
+  /* margin: auto; */
+  background-color: white;
+  margin-top: 30px;
+  border: solid 2px black;
+  position: relative;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.historic-production-table-container {
+  width: 100%;
+  max-height: 50vh;
+  overflow-y: auto;
+  /* height: 95%; */
+  padding-bottom: 15px;
+}
+
+.historic-production-table {
+  font-size: 0.9rem;
+  border-collapse: collapse;
+  text-align: center;
+  width: 92%;
+  table-layout: fixed;
+  background-color: rgba(215, 232, 207, 0.353);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .filter-historic-production {
+    margin-left: 10px;
+    margin-bottom: 10px;
+} */
+
+.historic-production-table thead th {
+  background-color: rgb(53, 0, 151);
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.historic-production-table td {
+  border-top: none;
+}
+
+.historic-production-table td,
+.historic-production-table th {
+  border: solid 1px black;
+}
+
+.total-produced {
+  height: 80%;
+  display: grid;
+  place-content: center;
+  background: #ff00ff17;
+}
+
+.input-and-total-historic-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 3.5rem;
+}
+
+.dates-production-container {
+  display: flex;
+}
+
+.form-production-dates {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.form-production-dates div {
+  display: flex;
+  flex-direction: column;
+}
+
+.production-table {
+  width: 100%;
+  min-width: 600px; /* Ajusta el ancho mínimo según tus necesidades */
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.production-table th,
+.production-table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.production-table th {
+  background-color: var(--lila-oscuro);
+  color: white;
+}
+
+.table-delete-production {
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 80%;
+  text-align: center;
+}
+.table-delete-production td {
+  border: 1px solid rgba(0, 0, 0, 0.158);
+}
+
+.buttons-delete-production-container {
+  display: flex;
+  justify-content: space-evenly;
+  height: 2.5rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 700px) {
+  .dates-production-container {
+    justify-content: center;
+  }
+
+  .form-production-dates {
+    flex-direction: column;
+    width: 70%;
+    height: 15rem;
+    text-align: center;
+  }
+
+  .historic-production-table {
+    max-height: 0.1rem;
+  }
+
+  .input-and-total-historic-container {
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 5rem;
+  }
+
+  .total-produced {
+    height: 2rem;
+    width: 80%;
+  }
+
+  .submain-container-historic-production {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+
+  .production-table td {
+    height: 1px;
+  }
+
+  .production-table {
+    table-layout: fixed;
+  }
+  
+  .historic-production-table-container {
+    
+    max-height: 100px;
+  }
+
+  .production-table td, .production-table th {
+    padding: 2px;
+    font-size: 0.8rem;
+  }
+}

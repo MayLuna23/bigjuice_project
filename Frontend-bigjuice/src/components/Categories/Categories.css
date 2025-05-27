@@ -1,0 +1,20 @@
+.main-categories-container {
+    background-color: var(--lila-oscuro);;
+    width: 7rem;
+    height: calc(100vh - 6rem - 2px);
+    border-right: solid 2px black;
+}
+
+.categories-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 15rem;
+    font-size: 1.5rem;
+}
+
+.categories-container p {
+    color: white;
+    cursor: pointer;
+}

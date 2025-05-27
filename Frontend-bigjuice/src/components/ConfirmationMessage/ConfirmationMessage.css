@@ -1,0 +1,31 @@
+.confirmation-message-component {
+    width: 100vw;
+    height: calc(100vh - 6rem - 2px);
+    background-color: rgba(0, 0, 0, 0.375);
+    position: absolute;
+    z-index: 9999;
+    display: grid;
+    place-content: center;
+}
+
+.confirmation-message-component .confirmation-message {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: solid 2px black;
+    padding: 15px;
+}
+/* 
+.confirmation-message-component div {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    display: grid;
+    place-content: center;
+    background-color: white;
+    border: solid 2px black;
+    padding: 15px;
+} */

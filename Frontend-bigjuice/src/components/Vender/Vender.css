@@ -1,0 +1,18 @@
+.main-vender-container {
+  z-index: -1;
+  background-color: rgb(215, 232, 207);
+}
+
+.main-product-card-container {
+  position: absolute;
+  top: 6rem;
+  left: 7rem;
+  width: calc(100vw - 7rem - calc(30% - 6rem) - 30px);
+  height: calc(100vh - 6rem - 30px);
+  padding: 15px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: minmax(200px, 250px); /* Establece la altura mínima a 100px y la máxima a 200px (ajústala según tus necesidades) */
+  overflow-y: auto;
+}

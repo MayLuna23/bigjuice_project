@@ -1,0 +1,74 @@
+.totals-bills-messages {
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+
+.totals-bills-messages table {
+  border-collapse: collapse;
+  width: 25%;
+  margin: auto;
+  text-align: center;
+}
+
+.totals-bills-messages table td {
+  border: solid 1px black;
+  width: 50%;
+}
+
+.bills-table-container {
+  max-height: 25rem;
+  overflow-y: auto;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.bills-table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+
+}
+
+.bills-table thead {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.bills-table th,
+.bills-table td {
+  border: solid 1px black;
+  border-top: none;
+}
+
+.bills-table td {
+  font-size: 1rem;
+  padding: 5px;
+}
+
+.bills-table th {
+  height: 2rem;
+  background-color: red;
+  font-size: 1.3rem;
+  color: white;
+}
+
+/* .date-selector-bills {
+  font-size: 1.2rem;
+} */
+
+.td-delete-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-bills-find {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}

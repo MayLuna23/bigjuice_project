@@ -1,0 +1,101 @@
+.main-login-container {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: rgb(170, 255, 116);
+  background: linear-gradient(
+    90deg,
+    rgba(170, 255, 116, 1) 0%,
+    rgba(9, 9, 121, 0) 50%,
+    rgba(175, 0, 255, 1) 100%
+  );
+}
+.login-container {
+  width: 340px;
+  height: 80%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: transparent;
+  border: none;
+  display: grid;
+  place-content: center;
+}
+
+.login-logo-container {
+  width: 210px;
+  height: 150px;
+  margin: auto;
+  display: grid;
+  place-content: center;
+}
+
+.login-logo-container img {
+  width: 100%;
+}
+
+.loggin-title-container {
+  height: 4rem;
+  display: grid;
+  place-content: center;
+}
+
+
+.login-container label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 1.8rem;
+  height: 6rem;
+  width: 75%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.login-container input {
+  width: 93%;
+  padding: 8px;
+  /* margin-bottom: 16px; */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1.3rem;
+}
+
+.login-container button {
+  background-color: greenyellow;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  border: solid 2px black;
+  color: rgb(110, 37, 148);
+}
+
+.button-form-container {
+  width: 100%;
+  text-align: center;
+  height: 7rem;
+  display: grid;
+  place-content: center;
+}
+
+.login-container button:hover {
+  background-color: rgb(110, 37, 148);
+  color: greenyellow;
+}
+
+.block-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Estilos para mensajes de error */
+.error-message-login {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}

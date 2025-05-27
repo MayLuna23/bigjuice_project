@@ -1,0 +1,48 @@
+.slide-menu-phone {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 10rem;
+  background-color: var(--lila-oscuro);
+  height: 100vh;
+  z-index: 99999;
+  border-right: 2px solid black;
+  
+}
+
+.logo-container-phone {
+  width: 9rem;
+  height: 6rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.logo-container-phone img {
+  z-index: 9999;
+  width: 100%;
+}
+
+.close-side-menu-phone{
+  position: absolute;
+  top: 0;
+  right: 5px;
+  color: greenyellow;
+}
+
+.links-container-phone {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 20rem;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.links-container-phone p a {
+  color: greenyellow;
+}
+
+.selected-phone a {
+  color: red;
+}

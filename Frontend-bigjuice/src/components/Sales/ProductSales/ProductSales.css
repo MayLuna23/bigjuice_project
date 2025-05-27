@@ -1,0 +1,52 @@
+.product-sales-aside {
+  background-color: rgb(185, 186, 186);
+  width: 25rem;
+  height: calc(100vh - 6rem - 22px);
+  position: absolute;
+  z-index: 9998;
+  padding: 10px;
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column; */
+  text-align: center;
+}
+
+.container-table-product-sales {
+  width: 100%;
+  background-color: white;
+  /* display: flex;
+  justify-content: center; */
+}
+
+.aside-table-product-sales {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  table-layout: fixed;
+}
+
+.aside-table-product-sales th, .aside-table-product-sales td {
+  border: solid 1px black;
+  width: 50%;
+}
+
+
+.aside-table-product-sales th {
+  background-color: var(--lila-oscuro);
+  color: white;
+}
+
+.aside-table-product-sales tr {
+  height: 3rem;
+}
+
+.close-button-aside-product-sales {
+  display: flex;
+  justify-content: right;
+}
+
+@media (max-width: 400px) {
+  .product-sales-aside {
+    width: calc(100% - 20px)
+  }
+}

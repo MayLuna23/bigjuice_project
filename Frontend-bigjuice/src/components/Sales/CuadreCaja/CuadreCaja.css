@@ -1,0 +1,38 @@
+.cuadre-container {
+  position: absolute;
+  right: 20px;
+  top: calc(10px + 6rem + 22px);
+  width: 13rem;
+  display: flex;
+  flex-direction: column;
+  height: 13rem;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+}
+
+.cuadre-container input {
+  width: 5rem;
+}
+
+.cuadre-container button {
+  width: 5rem;
+}
+
+.cuadre-container span {
+  background-color: greenyellow;
+}
+
+.total-moneybox {
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 400px) {
+  .cuadre-container {
+    position: unset;
+    height: 100%;
+    align-items: center;
+    width: 40%;
+  }
+}

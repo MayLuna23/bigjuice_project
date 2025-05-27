@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
+}
+
+:root {
+  --verde-viche: rgb(165, 190, 0);
+  --lila-oscuro: rgb(110, 37, 148);
+}
+
+.error-message {
+  font-weight: bolder;
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.no-match {
+  font-size: 1.2rem;
+  color: red;
+  font-weight: bold;
+}

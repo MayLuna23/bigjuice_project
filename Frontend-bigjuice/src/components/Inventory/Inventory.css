@@ -1,0 +1,212 @@
+.tables-inventory-container {
+  margin-top: 30px;
+  width: calc(100vw - 20px);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.table-container {
+  max-height: calc(100vh - 9rem - 66px);
+  overflow-y: auto;
+  width: 100%;
+}
+
+.inventory-table {
+  width: 100%;
+  font-size: 1rem;
+  border-collapse: collapse;
+  border-bottom: 1px solid black;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.inventory-table th,
+.inventory-table td {
+  border: 1px solid black;
+  padding: 3px;
+  height: 1rem;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.inventory-table td {
+  border-bottom: none;
+}
+
+.inventory-table th {
+  background-color: rgba(0, 0, 0, 0.712);
+  color: white;
+  font-size: 1.2rem;
+  height: 2rem;
+}
+
+.yellow-color {
+  background-color: rgba(255, 255, 0, 0.449);
+  color: rgb(224, 169, 4);
+}
+
+.red-color {
+  color: rgb(182, 1, 1);
+  background-color: rgba(255, 0, 0, 0.429);
+}
+
+.green-color {
+  background-color: rgba(25, 233, 25, 0.32);
+  color: green;
+}
+
+.select-ubication-inventory-container {
+  display: grid;
+  place-content: center;
+  margin-top: 15px;
+  position: relative;
+}
+
+.select-ubication-inventory {
+  height: 3rem;
+  width: 20rem;
+  font-size: 2rem;
+  background-color: var(--lila-oscuro);
+  color: greenyellow;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.inventory-message {
+  text-align: center;
+  color: red;
+  font-size: 1.3rem;
+  margin-top: 30px;
+}
+
+.inventory-buttons-container {
+  position: absolute;
+  left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.button-new-product,
+.button-new-ingredient {
+  background-color: rgb(11, 170, 255);
+  border-radius: 4px;
+  cursor: pointer;
+  border: solid 2px black;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.new-jugo-form {
+  display: grid;
+  grid-template-columns: minmax(0, 300px) minmax(0, 300px);
+  gap: 10px;
+}
+
+.new-jugo-form div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+.new-product-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-delete-product-buttons {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.buttons-admin-inventory {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.name-inventory {
+  cursor: pointer;
+}
+
+.inventory-table tr:hover {
+  cursor: pointer;
+  color: var(--lila-oscuro);
+  font-weight: bolder;
+}
+
+
+.button-delete-inventory {
+  background-color: red;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border: solid 2px black;
+  width: 7rem;
+  color: white;
+}
+
+.button-edit-inventory,
+.edit-inventory-button,
+.button-new-inventory {
+  background-color: greenyellow;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border: solid 2px black;
+  color: rgb(110, 37, 148);
+  width: 7rem;
+}
+
+.edit-inventory-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.close-confirmationmessage-inventory {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.close-confirmationmessage-inventory:hover {
+  color: red;
+}
+
+.button-new-inventory-container {
+  display: grid;
+  place-content: center;
+  position: absolute;
+  bottom: 5px;
+  width: calc(100% - 30px)
+}
+
+@media screen and (max-width: 500px) {
+  .tables-inventory-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button-new-product {
+    display: none;
+  }
+
+  .select-ubication-inventory {
+    font-size: 1.2rem;
+    width: 12rem;
+    height: 2rem;
+  }
+}

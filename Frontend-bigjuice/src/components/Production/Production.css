@@ -1,0 +1,130 @@
+.production-container {
+    height: calc(100vh - 6rem - 2px);
+    display: grid;
+    place-content: center;
+    position: relative;
+}
+
+.show-historic-production-button {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 100px;
+    cursor: pointer;
+    z-index: 9998;
+}
+
+
+.production-container form {
+    display: flex;
+    flex-direction: column;
+    height: 27rem;
+    text-align: center;
+    width: 40rem;
+
+}
+
+.production-container form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.production-container form select, 
+.production-container form input {
+    width: 12rem;
+    margin: auto;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.label-production {
+    font-size: 2rem;
+}
+
+.button-production-container {
+    width: 5rem;
+    margin: auto;
+}
+
+.button-production-container button {
+    background-color: greenyellow;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    border: solid 2px black;
+    color: rgb(110, 37, 148);
+}
+
+.button-production-container button:hover {
+    background-color: rgb(110, 37, 148);
+    color: greenyellow; 
+}
+
+.production-message {
+    color: red;
+    font-size: 1.2rem;
+    margin: auto;
+}
+
+.green-message {
+    color: green;
+}
+
+.confirmation-message-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.375);
+    position: absolute;
+    z-index: 9999;
+    display: grid;
+    place-content: center;
+}
+
+.confirmation-message-container div {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    display: grid;
+    place-content: center;
+    background-color: white;
+    border: solid 2px black;
+    padding: 15px;
+
+
+}
+.confirmation-message-container span {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.confirmation-message-container button {
+    width: 35%;
+    margin: auto;
+    margin-top: 15px;
+    background-color: greenyellow;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    border: solid 2px black;
+    color: rgb(110, 37, 148);
+}
+
+.confirmation-message-container button:hover {
+    background-color: rgb(110, 37, 148);
+    color: greenyellow;
+  }
+
+.confirmation-message-container p {
+    font-size: 2rem;
+    text-align: center;
+}
